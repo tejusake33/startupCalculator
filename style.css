@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFBDA2;
+  }
+  h1{
+      text-align: center;
+  }
+  .emi-holder{
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 10px;
+  }
+  .calculator .results{
+      width: 40%;
+  }
+  .card1{
+      width: 500px;
+      background-color: #0C0D29;
+      padding: 20px;
+      color: white;
+  }
+  input{
+    width: 100%;
+    height: 40px;
+    color: black;
+  }
+  .button{
+      display: flex;
+      justify-content: center;
+  }
+  .btn{
+    display: flex;
+    cursor: pointer;
+    background-color: #181934;
+    color:  #fff;
+    border: 0;
+    padding: 10px 30px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin-top: 10px;
+  }
+  .Graph{
+    top: 700px;
+    left: 400px;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+  .pie{
+      height: 300px;
+      width: 100%;
+  }
+ .chart{
+     height: 500px;
+     width: 86.4%;
+     background-color: white;
+     margin-top: 10px;
+     margin-left: 86px;
+ }
+
+ @media only screen and (max-width: 600px) {
+     .emi-holder{
+         display: block;
+     }
+     .resul{
+         margin-top: 10px;
+     }
+     .chart{
+         margin-top: 10px;
+         display: block;
+     }
+ }

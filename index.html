@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emi calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.js"></script>
+
+</head>
+<body>
+    <div id="includedContent"></div>
+    <div class="emi-holder">
+
+        <div class="calculator card1">
+            <form action="">
+                <div class="block1">
+                    <h3>Launching Users</h3>
+                    <input id="amount" type="number" />
+                </div>
+                <div class="block1">
+                    <h3>Growth</h3>
+                    <input id="ir" type="number"/>
+                </div>
+                <div class="block1">
+                    <h3>churn</h3>
+                    <input id="churn" type="number"/>
+                </div>
+                <div class="button">
+                    <button class="btn" id="find">Find users</button>
+                </div>
+                <h3>Year 5 Users: <span class="user"></span></h3>
+    
+            </form>
+        </div>
+
+    
+        <div class="Graph">
+            <canvas id="lineChart" height="200px" width="200px"></canvas>
+        </div>
+
+    </div>
+
+
+ 
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
